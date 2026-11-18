@@ -1,0 +1,39 @@
+{
+  "name": "nocturne",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nocturne TV: a sample streaming app for Samsung (Tizen) and LG (webOS) TVs, tested on VibeView.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --web",
+    "build": "node scripts/build-tv.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@bbc/tv-lrud-spatial": "0.0.18",
+    "@expo/metro-runtime": "~56.0.21",
+    "@vibeview/tv-focus": "^0.1.2",
+    "core-js": "^3.47.0",
+    "expo": "~56.0.23",
+    "expo-font": "~56.0.7",
+    "expo-linear-gradient": "~56.0.4",
+    "expo-video": "~56.1.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-svg": "15.15.4",
+    "react-native-web": "~0.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.1",
+    "esbuild": "^0.28.2",
+    "typescript": "~5.9.0",
+    "vitest": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@10.15.0"
+}

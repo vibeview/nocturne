@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Nocturne TV",
+    "slug": "nocturne",
+    "version": "1.0.0",
+    "platforms": ["web"],
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0E1B19",
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/brand/favicon.png",
+      "name": "Nocturne TV"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/BricolageCondensed-ExtraBold.ttf",
+            "./assets/fonts/Bricolage-SemiBold.ttf",
+            "./assets/fonts/Bricolage-Bold.ttf",
+            "./assets/fonts/InstrumentSans-Regular.ttf",
+            "./assets/fonts/InstrumentSans-Medium.ttf",
+            "./assets/fonts/InstrumentSans-SemiBold.ttf"
+          ]
+        }
+      ]
+    ]
+  }
+}
